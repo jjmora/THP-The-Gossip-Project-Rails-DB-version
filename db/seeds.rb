@@ -23,3 +23,4 @@ require 'faker'
 40.times do |x|
   join = JoinTableGossipTag.create(gossip_id: Faker::Number.between(from: 1, to: 20), tag_id: Faker::Number.between(from: 1, to: 10))
 end
+
